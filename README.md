@@ -412,6 +412,7 @@ The **real cost** of running OpenClaw is the AI model API, not infrastructure.
 3. Use **local LLMs** via Ollama for zero API cost (requires 16 GB+ RAM)
 4. Set **budget alerts** in your AI provider dashboard
 5. Use [OpenClaw Cost Calculator](https://calculator.vlvt.sh/) to estimate your spend
+6. Use [OpenClaw Setup Cost Calculator](https://calculator.guardclaw.dev/) — Estimate OpenClaw setup cost across model usage, heartbeats, fallback behaviour, and multi-agent setups before running agents.
 
 ---
 
@@ -1343,6 +1344,7 @@ node --version                     # Must be 22+
 - [eesel.ai Pricing Guide](https://www.eesel.ai/blog/openclaw-ai-pricing)
 - [Deploy Cost Guide: $0-8/month](https://yu-wenhao.com/en/blog/2026-02-01-openclaw-deploy-cost-guide/)
 - [Cost Governor](https://github.com/AtlasPA/openclaw-cost-governor) — First OpenClaw skill with x402 agent payments. Track LLM costs in real-time, enforce budget limits with circuit breakers, enable AI agents to autonomously pay for Pro features (0.5 USDT/month).
+- [OpenClaw Setup Cost Calculator](https://calculator.guardclaw.dev/) — Estimate OpenClaw setup cost across model usage, heartbeats, fallback behaviour, and multi-agent setups before running agents.
 
 ### Monthly Budget Targets
 
